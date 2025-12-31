@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Chúc Mừng Năm Mới 2026!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Sans+Arabic:wght@300;400;500;700&family=Noto+Sans+Devanagari:wght@300;400;500;700&family=Noto+Sans+Hebrew:wght@300;400;500;700&family=Noto+Sans+Thai:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Caveat");
+
+        * {
+            -webkit-tap-highlight-color: transparent;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            user-select: none;
+            touch-action: manipulation;
+        }
+
+        :root {
+            --font-body: "Noto Sans", "Noto Sans JP", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", "Noto Sans Arabic", "Noto Sans Devanagari", "Noto Sans Hebrew", "Noto Sans Thai", sans-serif;
+        }
+
+        html,
+        body {
+            height: 100vh;
+            height: 100svh;
+            width: 100vw;
+            position: fixed;
+            overflow: hidden;
+            font-family: var(--font-body) !important;
+        }
+
+        html,
+        body {
+            background: linear-gradient(to bottom, #090513 0%, #964987 75%, #fdbca3 100%);
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                radial-gradient(1px 1px at 20px 30px, #eee, rgba(0, 0, 0, 0)),
+                radial-gradient(1.5px 1.5px at 40px 70px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(1px 1px at 50px 160px, #ddd, rgba(0, 0, 0, 0)),
+                radial-gradient(2px 2px at 90px 40px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(1.5px 1.5px at 130px 80px, #fff, rgba(0, 0, 0, 0)),
+                radial-gradient(1px 1px at 160px 120px, #ddd, rgba(0, 0, 0, 0));
+            background-repeat: repeat;
+            background-size: 200px 200px;
+            animation: twinkle 4s infinite alternate;
+            opacity: 0.6;
+        }
+
+        @keyframes twinkle {
+            0% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 0.8;
+            }
+        }
+
+        h1 {
+            font-size: calc(1.5em + 5vw);
+            color: #fff;
+            font-family: "Caveat", sans-serif;
+            text-align: center;
+            padding: 0.5em;
+            transform: rotate(-4deg) translateY(-28vh);
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 30px rgba(150, 73, 135, 0.3);
+            z-index: 10;
+            cursor: default;
+        }
+
+        .mountains {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: auto;
+            min-width: 100%;
+            height: 80px;
+            fill: #050515;
+            z-index: 5;
+        }
+
+        .mountains--layer2 {
+            fill: #7a3a6e;
+            z-index: 3;
+            bottom: 5px;
+            opacity: 0.5;
+        }
+
+        .greeting-container {
+            position: absolute;
+            top: 46%;
+            width: 85%;
+            max-width: 800px;
+            text-align: center;
+            z-index: 10;
+            font-family: 'Noto Sans', sans-serif;
+            color: rgba(255, 255, 255, 0.95);
+            font-size: clamp(1rem, 2.5vw, 1.3rem);
+            line-height: 1.6em;
+            height: 3.2em;
+            overflow: hidden;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .greeting-container {
+                top: 35%;
+                height: 4.8em;
+            }
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 3px;
+            height: 1.2em;
+            background-color: #fff;
+            margin-left: 5px;
+            vertical-align: middle;
+            animation: blink 0.8s infinite;
+        }
+
+        @keyframes blink {
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .firework-photo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: clamp(40px, 6vw, 65px);
+            height: auto;
+            border: 2px solid #fff;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            z-index: 8;
+            pointer-events: auto;
+            cursor: pointer;
+            will-change: transform, opacity;
+            visibility: visible;
+        }
+
+        .firework-photo:hover {
+            filter: brightness(1.3) contrast(1.1);
+            box-shadow: 0 0 25px #ff00d0;
+        }
+
+        #horse-container {
+            position: absolute;
+            top: 0%;
+            left: -500px;
+            width: 400px;
+            height: 300px;
+            z-index: 2;
+            pointer-events: none;
+            filter: blur(0.5px);
+        }
+
+        .horse-dot {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #fff, 0 0 20px #00f6ff;
+            opacity: 0.8;
+        }
+
+        .magic-dust {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #00f6ff;
+            border-radius: 50%;
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        #ambient-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: all;
+        }
+
+        .btn-audio-toggle {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="bg-music" loop>
+        <source src="audio/dong.mp3" type="audio/mpeg">
+    </audio>
+    <div id="auto-play-overlay" style="position:fixed;inset:0;z-index:99999;background:transparent;"></div>
+
+    <div id="ambient-particles"></div>
+    <div id="horse-container"></div>
+    <h1 id="title">Happy New Year!</h1>
+    <div class="greeting-container">
+        <span id="greeting-text"></span><span class="cursor"></span>
+    </div>
+    <div class="stars"></div>
+    <svg class="mountains mountains--layer1" xmlns="http://www.w3.org/2000/svg" width="1920" height="200"
+        viewBox="0 0 1920 200" preserveAspectRatio="none">
+        <path
+            d="M0,41.57s21.25,2.19,27.33,2.19,22.27-4.37,28.34,0-1,22.94,6.07,19.67S72.87,52,81,52.81s16.19,10.15,22.27,0,25.3-1.41,30.36,6.24,21.25,7.33,26.32,4.76,8.1-20.66,16.19-22,17.21-6.31,18.22,0,5.06,3,12.15,3,20.24-10.93,25.3-14.2S238.86,11,259.1,11s35.42,4.37,43.52,0S316.79.05,321.86.05,337-1,337,6.61s6.07,24.92,15.18,26.12,30.36,11,34.41,14.31,18.22-2.19,18.22-2.19c11.13,7.65,20.24,0,20.24,0S441.29,23,453.43,18.63s17.21,4.37,20.24,7.65S497,32.62,500,32.73s19.23-10.82,23.28-10.82,27.33-4.37,34.41-3.28,16.19,10.72,16.19,14.1S582,52.5,586,52.5s15.18,2.19,21.25,2.19,14.17,1.09,17.21,1.09,6.07-3.28,26.32-13.11S669,21.91,677.11,24.09s9.11,14.2,16.19,13.11,0-17.48,24.29-17.48a140.45,140.45,0,0,1,44.53,7.65s3,29.5,17.21,29.5c0,0,28.34-7.65,36.44-7.65s39.47,7.33,47.57,16.23,32.39,12.18,42.51,12.18,25.3,15.3,28.34,15.3,23.28,3.28,28.34-5.46S967.59,66.7,975.69,58s10.12-21.3,17.21-11.2,13.16,8.47,16.19,0,14.17-16.12,17.21-16.12,19.23,3.28,19.23,6.56,25.3-2.19,35.42-12,39.47-9.83,65.79-9.83,54.65,9.83,61.74,14.2,33.4,7.65,42.51,7.65,20.24,4.37,26.32,4.37,5.06,9.83,17.21,13.11,25.3-8.19,28.34-7.92,10.12-16.12,19.23-16.12,27.33,16.94,34.41,16.12,22.27,22.12,28.34,24.31,2,12.13,18.22,22.45,22.27,32.18,34.41,32.18,50.61-8.74,54.65-15.3,22.27-19.67,27.33-19.67,34.41-7.65,38.46-4.37,29.35,22.94,48.58,22.94,46.56-14.2,54.65-14.2,23.28-9.83,35.42-9.83,46.56,12,57.69,14.2,42.51,8.74,58.7,8.74,38.67-42.77,66.8-45.89c6.12-.68,20.24,1.09,20.24,1.09V200H0Z" />
+    </svg>
+    <button id="toggle-audio" class="btn-audio-toggle"
+        style="position: absolute; top: 15px; right: 15px; z-index: 999;">
+        <i id="audio-icon" class="fa-solid fa-volume-high"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+        const audio = document.getElementById("bg-music");
+        const overlay = document.getElementById("auto-play-overlay");
+
+        overlay.addEventListener("click", () => {
+            audio.volume = 0.5;
+            audio.play().then(() => {
+                overlay.remove();
+            }).catch(() => {});
+        });
+
+        document.getElementById("toggle-audio").addEventListener("click", () => {
+            if (audio.paused) {
+                audio.play();
+                document.getElementById("audio-icon").classList.replace("fa-volume-xmark", "fa-volume-high");
+            } else {
+                audio.pause();
+                document.getElementById("audio-icon").classList.replace("fa-volume-high", "fa-volume-xmark");
+            }
+        });
+
+        class Star extends mojs.CustomShape {
+            getShape() {
+                return '<path d="M50 5L61 35H95L68 54L78 85L50 65L22 85L32 54L5 35H39L50 5Z" />';
+            }
+        }
+        mojs.addShape('star', Star);
+        const galleryData = [""];
+        let photoIndex = 0;
+        let activePhotos = 0;
+        let groundLevel = window.innerHeight - 60;
+        let mountainLimit = window.innerHeight - 100;
+        let isMobile = window.innerWidth < 768;
+        tsParticles.load("ambient-particles", {
+            fullScreen: {
+                enable: false
+            },
+            fpsLimit: 60,
+            interactivity: {
+                events: {
+                    onHover: {
+                        enable: true,
+                        mode: "attract"
+                    },
+                    onClick: {
+                        enable: true,
+                        mode: "push"
+                    }
+                },
+                modes: {
+                    attract: {
+                        distance: 200,
+                        duration: 0.4,
+                        factor: 5
+                    },
+                    push: {
+                        quantity: 15,
+                        particles: {
+                            color: {
+                                value: "#FF0000"
+                            },
+                            size: {
+                                value: 3
+                            }
+                        }
+                    }
+                }
+            },
+            particles: {
+                number: {
+                    value: isMobile ? 60 : 120,
+                    density: {
+                        enable: true,
+                        area: 800
+                    }
+                },
+                color: {
+                    value: ["#FFD700", "#FF0000", "#FFFFFF"]
+                },
+                shape: {
+                    type: "circle"
+                },
+                opacity: {
+                    value: {
+                        min: 0.2,
+                        max: 0.7
+                    },
+                    animation: {
+                        enable: true,
+                        speed: 1,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: {
+                        min: 1,
+                        max: 2.5
+                    },
+                    animation: {
+                        enable: true,
+                        speed: 2,
+                        sync: false
+                    }
+                },
+                move: {
+                    enable: true,
+                    speed: isMobile ? 0.5 : 1,
+                    direction: "none",
+                    random: true,
+                    straight: false,
+                    outModes: "out",
+                    attract: {
+                        enable: true,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                },
+                twinkle: {
+                    particles: {
+                        enable: true,
+                        color: "#FFD700",
+                        frequency: 0.05,
+                        opacity: 1
+                    }
+                }
+            },
+            detectRetina: false
+        });
+        const horseContainer = document.getElementById('horse-container');
+        const horsePoints = [{
+            x: 260,
+            y: 40,
+            g: 'head'
+        }, {
+            x: 250,
+            y: 50,
+            g: 'head'
+        }, {
+            x: 245,
+            y: 65,
+            g: 'head'
+        },
+        {
+            x: 230,
+            y: 80,
+            g: 'neck'
+        }, {
+            x: 220,
+            y: 95,
+            g: 'neck'
+        }, {
+            x: 205,
+            y: 105,
+            g: 'neck'
+        },
+        {
+            x: 180,
+            y: 110,
+            g: 'body'
+        }, {
+            x: 150,
+            y: 115,
+            g: 'body'
+        }, {
+            x: 120,
+            y: 115,
+            g: 'body'
+        },
+        {
+            x: 90,
+            y: 110,
+            g: 'body'
+        }, {
+            x: 60,
+            y: 115,
+            g: 'body'
+        }, {
+            x: 40,
+            y: 130,
+            g: 'tail'
+        },
+        {
+            x: 220,
+            y: 130,
+            g: 'f-leg'
+        }, {
+            x: 235,
+            y: 160,
+            g: 'f-leg'
+        }, {
+            x: 250,
+            y: 180,
+            g: 'f-leg'
+        },
+        {
+            x: 200,
+            y: 130,
+            g: 'f-leg-2'
+        }, {
+            x: 190,
+            y: 160,
+            g: 'f-leg-2'
+        }, {
+            x: 170,
+            y: 185,
+            g: 'f-leg-2'
+        },
+        {
+            x: 100,
+            y: 130,
+            g: 'b-leg'
+        }, {
+            x: 90,
+            y: 170,
+            g: 'b-leg'
+        }, {
+            x: 70,
+            y: 195,
+            g: 'b-leg'
+        },
+        {
+            x: 120,
+            y: 130,
+            g: 'b-leg-2'
+        }, {
+            x: 140,
+            y: 170,
+            g: 'b-leg-2'
+        }, {
+            x: 160,
+            y: 190,
+            g: 'b-leg-2'
+        }
+        ];
+
+        function initParticleHorse() {
+            const container = document.getElementById('horse-container');
+            container.innerHTML = '';
+            gsap.set(container, {
+                scale: 0.6
+            });
+            const skeleton = {
+                head: [{
+                    x: 320,
+                    y: 50
+                }, {
+                    x: 300,
+                    y: 45
+                }, {
+                    x: 310,
+                    y: 70
+                }, {
+                    x: 290,
+                    y: 75
+                }],
+                neck: [{
+                    x: 270,
+                    y: 85
+                }, {
+                    x: 250,
+                    y: 105
+                }, {
+                    x: 235,
+                    y: 125
+                }],
+                body: [{
+                    x: 210,
+                    y: 135
+                }, {
+                    x: 180,
+                    y: 130
+                }, {
+                    x: 150,
+                    y: 130
+                }, {
+                    x: 120,
+                    y: 135
+                }, {
+                    x: 90,
+                    y: 145
+                }],
+                tail: [{
+                    x: 70,
+                    y: 140
+                }, {
+                    x: 50,
+                    y: 130
+                }, {
+                    x: 30,
+                    y: 125
+                }, {
+                    x: 10,
+                    y: 130
+                }],
+                legFL: [{
+                    x: 240,
+                    y: 145
+                }, {
+                    x: 250,
+                    y: 180
+                }, {
+                    x: 265,
+                    y: 210
+                }],
+                legFR: [{
+                    x: 220,
+                    y: 145
+                }, {
+                    x: 210,
+                    y: 185
+                }, {
+                    x: 200,
+                    y: 220
+                }],
+                legBL: [{
+                    x: 110,
+                    y: 150
+                }, {
+                    x: 100,
+                    y: 190
+                }, {
+                    x: 85,
+                    y: 225
+                }],
+                legBR: [{
+                    x: 140,
+                    y: 150
+                }, {
+                    x: 155,
+                    y: 195
+                }, {
+                    x: 175,
+                    y: 230
+                }]
+            };
+            const allDots = [];
+            Object.keys(skeleton).forEach(part => {
+                skeleton[part].forEach((pos, i) => {
+                    const dot = document.createElement('div');
+                    dot.className = 'horse-dot';
+                    container.appendChild(dot);
+                    const obj = {
+                        el: dot,
+                        x: pos.x,
+                        y: pos.y,
+                        part: part,
+                        index: i
+                    };
+                    allDots.push(obj);
+                    gsap.set(dot, {
+                        x: pos.x,
+                        y: pos.y
+                    });
+                });
+            });
+            const masterTL = gsap.timeline({
+                repeat: -1
+            });
+            masterTL.to(container, {
+                y: "-=40",
+                duration: 0.5,
+                ease: "sine.inOut",
+                yoyo: true,
+                repeat: 1
+            }, 0);
+            allDots.forEach(d => {
+                if (d.part === 'head' || d.part === 'neck') {
+                    gsap.to(d.el, {
+                        y: d.y + 15,
+                        x: d.x + 10,
+                        duration: 0.5,
+                        repeat: -1,
+                        yoyo: true,
+                        ease: "sine.inOut"
+                    });
+                }
+                if (d.part === 'tail') {
+                    gsap.to(d.el, {
+                        y: d.y + 30,
+                        x: d.x - 10,
+                        duration: 0.4,
+                        repeat: -1,
+                        yoyo: true,
+                        ease: "power1.inOut",
+                        delay: d.index * 0.1
+                    });
+                }
+                const legLogic = (group, delay) => {
+                    if (d.part === group) {
+                        gsap.to(d.el, {
+                            x: d.x + (d.index * 20) - 40,
+                            y: d.y + 40,
+                            duration: 0.5,
+                            repeat: -1,
+                            yoyo: true,
+                            ease: "power2.inOut",
+                            delay: delay
+                        });
+                    }
+                }
+                legLogic('legFL', 0);
+                legLogic('legBR', 0.1);
+                legLogic('legFR', 0.25);
+                legLogic('legBL', 0.35);
+            });
+            gsap.to(container, {
+                x: window.innerWidth + 800,
+                duration: isMobile ? 15 : 10,
+                ease: "none",
+                repeat: -1,
+                onUpdate: function () {
+                    if (Math.random() > 0.7) createMagicDust(gsap.getProperty(container, "x"), gsap.getProperty(
+                        container, "y"));
+                }
+            });
+        }
+
+        function createMagicDust(hx, hy) {
+            const dust = document.createElement('div');
+            dust.className = 'magic-dust';
+            document.body.appendChild(dust);
+            const startX = hx + gsap.utils.random(0, 100);
+            const startY = hy + gsap.utils.random(100, 200);
+            gsap.set(dust, {
+                x: startX,
+                y: startY
+            });
+            gsap.to(dust, {
+                x: "-=100",
+                y: "+=50",
+                opacity: 0,
+                scale: 0,
+                duration: 1.5,
+                onComplete: () => dust.remove()
+            });
+        }
+
+        function horseFlash() {
+            gsap.to(".horse-dot", {
+                boxShadow: "0 0 30px #fff, 0 0 50px #00f6ff",
+                scale: 2,
+                duration: 0.2,
+                yoyo: true,
+                repeat: 1
+            });
+        }
+        initParticleHorse();
+        const B_CHILD = {
+            fill: {
+                '#ffffff': '#ef1cec'
+            },
+            delay: 'rand(300, 359)',
+            duration: 700,
+            pathScale: 'rand(0.8, 1)',
+            isSwirl: true,
+            swirlSize: 'stagger(-2,2)',
+            swirlFrequency: 1,
+        }
+        const B_OPTS = {
+            count: 'rand(15,20)',
+            top: '100%',
+            children: {
+                ...B_CHILD
+            }
+        }
+        const burst1 = new mojs.Burst({
+            ...B_OPTS,
+            radius: {
+                0: 'rand(150,170)'
+            },
+            x: -45,
+            y: -335
+        });
+        const burst1_2 = new mojs.Burst({
+            ...B_OPTS,
+            radius: {
+                0: 'rand(150,170)'
+            },
+            x: -45,
+            y: -335,
+            children: {
+                ...B_CHILD,
+                delay: 'rand(260, 350)',
+                pathScale: 'rand(0.7, 0.8)',
+                degreeShift: 20,
+            }
+        });
+        const burst2 = new mojs.Burst({
+            ...B_OPTS,
+            radius: {
+                0: 'rand(100,150)'
+            },
+            x: 140,
+            y: -315,
+            children: {
+                ...B_CHILD,
+                fill: {
+                    '#ffffff': '#d8ff00'
+                }
+            }
+        });
+        const burst2_2 = new mojs.Burst({
+            ...B_OPTS,
+            radius: {
+                0: 'rand(100,150)'
+            },
+            x: 140,
+            y: -315,
+            children: {
+                ...B_CHILD,
+                fill: {
+                    '#ffffff': '#d8ff00'
+                },
+                delay: 'rand(260, 350)',
+                pathScale: 'rand(0.7, 0.8)',
+                degreeShift: 20,
+            }
+        });
+        const burst_tune = new mojs.Burst({
+            ...B_OPTS,
+            radius: {
+                0: 'rand(100,150)'
+            },
+            left: 0,
+            top: 0,
+            children: {
+                ...B_CHILD,
+                delay: 'rand(0, 50)',
+                fill: {
+                    '#ffffff': '#d8ff00'
+                }
+            }
+        });
+        const burst_tune_2 = new mojs.Burst({
+            ...B_OPTS,
+            radius: {
+                0: 'rand(100,150)'
+            },
+            left: 0,
+            top: 0,
+            children: {
+                ...B_CHILD,
+                fill: {
+                    '#ffffff': '#d8ff00'
+                },
+                delay: 'rand(10, 150)',
+                pathScale: 'rand(0.7, 0.8)',
+                degreeShift: 20,
+            }
+        });
+        document.addEventListener('click', function (e) {
+            burst_tune.generate().tune({
+                x: e.pageX,
+                y: e.pageY
+            }).replay();
+            burst_tune_2.generate().tune({
+                x: e.pageX,
+                y: e.pageY
+            }).replay();
+        });
+        const FW_OPTS = {
+            shape: 'curve',
+            fill: 'none',
+            isShowStart: false,
+            strokeWidth: {
+                3: 0
+            },
+            stroke: '#ffffff',
+            strokeDasharray: '100%',
+            strokeDashoffset: {
+                '-100%': '100%'
+            },
+            duration: 1000
+        }
+        const fw1 = new mojs.Shape({
+            ...FW_OPTS,
+            radius: 170,
+            radiusY: 20,
+            top: '100%',
+            y: -165,
+            angle: 75,
+            onStart: function () {
+                burst1.replay(0);
+                burst1_2.replay(0);
+                setTimeout(launchPhoto, 600);
+                horseFlash();
+            }
+        });
+        const fw2 = new mojs.Shape({
+            ...FW_OPTS,
+            radius: 180,
+            radiusY: 50,
+            top: '100%',
+            x: 50,
+            y: -155,
+            strokeDashoffset: {
+                '100%': '-100%'
+            },
+            angle: -60,
+            delay: 200,
+            onStart: function () {
+                burst2.replay(0);
+                burst2_2.replay(0);
+                setTimeout(launchPhoto, 900);
+                horseFlash();
+            }
+        });
+        const underline = new mojs.Shape({
+            parent: document.getElementById('title'),
+            shape: 'curve',
+            strokeLinecap: 'round',
+            fill: 'none',
+            isShowStart: false,
+            strokeWidth: {
+                '1em': '5em'
+            },
+            stroke: '#ffffff',
+            strokeDasharray: '200%',
+            strokeDashoffset: {
+                '200%': '100%'
+            },
+            radius: 150,
+            radiusY: 10,
+            y: '1.1em',
+            angle: -10,
+            duration: 2000,
+            delay: 1000
+        }).then({
+            strokeWidth: {
+                '5em': '1em'
+            },
+            strokeDashoffset: {
+                '100%': '-200%'
+            },
+            duration: 2000,
+            delay: 10000
+        });
+        new mojs.Timeline({
+            repeat: 2026
+        }).add(underline).play();
+        new mojs.Timeline({
+            repeat: 2026
+        }).add(fw1, fw2).play();
+        const wishText = "Năm mới đến rồi, Chúc Anh Đồng Của Em😘, khỏe mạnh và gặp thật nhiều điều tốt đẹp. Mong rằng mỗi ngày trong năm mới đều có thật nhiều nụ cười và những khoảnh khắc đáng nhớ 💛, và chúc gia đình anh mạnh khỏe, tràn đầy hạnh phúc.";
+        const textEl = document.getElementById('greeting-text');
+        const container = document.querySelector('.greeting-container');
+        let charIndex = 0;
+        let typingTimer;
+
+        function typeEffect() {
+            clearTimeout(typingTimer);
+            if (charIndex < wishText.length) {
+                textEl.innerHTML += wishText[charIndex];
+                charIndex++;
+                if (container.scrollHeight > container.clientHeight) {
+                    let currentContent = textEl.innerHTML;
+                    let lastSpaceIndex = currentContent.lastIndexOf(' ');
+                    textEl.innerHTML = currentContent.substring(0, lastSpaceIndex);
+                    charIndex -= (currentContent.length - lastSpaceIndex);
+                    setTimeout(nextPage, 2000);
+                } else {
+                    setTimeout(typeEffect, 40);
+                }
+            } else {
+                setTimeout(() => {
+                    charIndex = 0;
+                    nextPage();
+                }, 3000);
+            }
+        }
+
+        function nextPage() {
+            container.classList.add('fade-out');
+            setTimeout(() => {
+                textEl.innerHTML = "";
+                container.classList.remove('fade-out');
+                typeEffect();
+            }, 500);
+        }
+        window.addEventListener('resize', () => {
+            clearTimeout(typingTimer);
+            charIndex = 0;
+            textEl.innerHTML = "";
+            container.classList.remove('fade-out');
+            typingTimer = setTimeout(typeEffect, 500);
+        });
+        setTimeout(typeEffect, 1000);
+
+        function launchPhoto() {
+            let maxPhotos = isMobile ? 2 : 4;
+            if (activePhotos >= maxPhotos || Math.random() > 0.4) return;
+            if (galleryData <= 0) return;
+            activePhotos++;
+            const img = document.createElement('img');
+            img.src = galleryData[photoIndex];
+            img.className = 'firework-photo';
+            document.body.appendChild(img);
+            photoIndex = (photoIndex + 1) % galleryData.length;
+            const startX = gsap.utils.random(20, window.innerWidth - 80);
+            const peakY = gsap.utils.random(window.innerHeight * 0.4, window.innerHeight * 0.6);
+            gsap.set(img, {
+                x: window.innerWidth / 2,
+                y: window.innerHeight,
+                scale: 0,
+                rotation: gsap.utils.random(-45, 45)
+            });
+            const fallTimeline = gsap.timeline({
+                onComplete: () => {
+                    img.remove();
+                    activePhotos--;
+                }
+            });
+            fallTimeline.to(img, {
+                x: startX,
+                y: peakY,
+                scale: 1,
+                duration: 0.9,
+                ease: "back.out(1.7)"
+            })
+                .to(img, {
+                    y: mountainLimit,
+                    x: startX + gsap.utils.random(-30, 30),
+                    rotation: gsap.utils.random(-15, 15),
+                    duration: isMobile ? 12 : 8,
+                    ease: "none"
+                })
+                .to(img, {
+                    opacity: 0,
+                    duration: 1
+                }, "-=1");
+            img.onmouseenter = () => {
+                fallTimeline.pause();
+                gsap.to(img, {
+                    scale: 1.8,
+                    z: 100,
+                    zIndex: 21,
+                    rotationY: 10,
+                    rotationX: 10,
+                    boxShadow: "0 0 30px #fff",
+                    duration: 0.4,
+                    ease: "power2.out"
+                });
+            };
+            img.onmouseleave = () => {
+                fallTimeline.play();
+                gsap.to(img, {
+                    scale: 1,
+                    z: 0,
+                    zIndex: 8,
+                    rotationY: 0,
+                    rotationX: 0,
+                    boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
+                    duration: 0.4
+                });
+            };
+            img.onclick = () => {
+                new mojs.Shape({
+                    left: 0,
+                    top: 0,
+                    x: gsap.getProperty(img, "x") + 30,
+                    y: gsap.getProperty(img, "y") + 30,
+                    radius: {
+                        0: 200
+                    },
+                    fill: 'white',
+                    opacity: {
+                        1: 0
+                    },
+                    duration: 300
+                }).play();
+                new mojs.Burst({
+                    left: 0,
+                    top: 0,
+                    x: gsap.getProperty(img, "x") + 30,
+                    y: gsap.getProperty(img, "y") + 30,
+                    radius: {
+                        0: 180
+                    },
+                    count: 20,
+                    children: {
+                        shape: 'star',
+                        fill: ['#FFD700', '#FFF'],
+                        duration: 1200,
+                        delay: 'stagger(20)'
+                    }
+                }).play();
+                fallTimeline.kill();
+                gsap.to(img, {
+                    scale: 0,
+                    opacity: 0,
+                    duration: 0.2,
+                    onComplete: () => {
+                        img.remove();
+                        activePhotos--;
+                    }
+                });
+            };
+        }
+        const burstCore = new mojs.Burst({
+            left: 0,
+            top: 0,
+            radius: {
+                0: 300
+            },
+            count: 25,
+            children: {
+                shape: 'circle',
+                fill: ['#ffffff', '#00f6ff', '#ff00d0'],
+                duration: 2500,
+                radius: {
+                    5: 0
+                },
+                easing: 'expo.out'
+            }
+        });
+        const burstSparks = new mojs.Burst({
+            left: 0,
+            top: 0,
+            radius: {
+                0: 500
+            },
+            count: 40,
+            children: {
+                shape: 'line',
+                stroke: ['#ff00d0', '#00f6ff', '#fff100', '#ffffff'],
+                strokeWidth: {
+                    3: 0
+                },
+                radius: {
+                    30: 0
+                },
+                duration: 3500,
+                scale: {
+                    1: 0.5
+                },
+                pathScale: 'rand(0.5, 1.5)',
+                isSwirl: true,
+                swirlSize: 10,
+                easing: 'expo.out'
+            }
+        });
+        const burstGlitter = new mojs.Burst({
+            left: 0,
+            top: 0,
+            radius: {
+                50: 600
+            },
+            count: 50,
+            children: {
+                shape: 'circle',
+                fill: 'white',
+                radius: {
+                    2: 0
+                },
+                duration: 5000,
+                delay: 'rand(100, 1000)',
+                easing: 'quad.out',
+                opacity: {
+                    1: 0
+                },
+                isSwirl: true,
+                swirlSize: 20,
+                swirlFrequency: 3
+            }
+        });
+        const rocketTrack = new mojs.Shape({
+            shape: 'line',
+            fill: 'none',
+            stroke: '#ffffff',
+            strokeWidth: {
+                2: 0
+            },
+            radius: 100,
+            angle: 90,
+            duration: 800,
+            easing: 'quad.out'
+        });
+
+        function launchHighFirework() {
+            const xPos = gsap.utils.random(150, window.innerWidth - 150);
+            const yPos = gsap.utils.random(window.innerHeight * 0.05, window.innerHeight * 0.2);
+            rocketTrack.tune({
+                x: xPos,
+                y: {
+                    [window.innerHeight]: yPos
+                }
+            }).replay();
+            setTimeout(() => {
+                burstCore.tune({
+                    x: xPos,
+                    y: yPos
+                }).replay();
+                burstSparks.tune({
+                    x: xPos,
+                    y: yPos
+                }).generate().replay();
+                burstGlitter.tune({
+                    x: xPos,
+                    y: yPos
+                }).generate().replay();
+                new mojs.Shape({
+                    left: 0,
+                    top: 0,
+                    x: xPos,
+                    y: yPos,
+                    shape: 'circle',
+                    radius: {
+                        0: 500
+                    },
+                    fill: 'white',
+                    opacity: {
+                        0.08: 0
+                    },
+                    blur: {
+                        10: 20
+                    },
+                    duration: 1000
+                }).play();
+                if (typeof horseFlash === "function") horseFlash();
+            }, 750);
+        }
+        setInterval(launchHighFirework, isMobile ? 8000 : 5000);
+
+        function updateDimensions() {
+            groundLevel = window.innerHeight - 60;
+            mountainLimit = window.innerHeight - 100;
+        }
+        window.addEventListener('resize', () => {
+            gsap.killTweensOf(updateDimensions);
+            gsap.delayedCall(0.25, updateDimensions);
+        });
+        window.addEventListener('orientationchange', updateDimensions);
+        updateDimensions();
+        document.addEventListener('touchstart', (e) => {
+            if (e.touches.length > 1) e.preventDefault();
+        }, {
+            passive: false
+        });
+        let lastTouchEnd = 0;
+        document.addEventListener('touchend', (e) => {
+            const now = (new Date()).getTime();
+            if (now - lastTouchEnd <= 300) e.preventDefault();
+            lastTouchEnd = now;
+        }, false);
+    </script>
+
+</body>
+
+</html>
